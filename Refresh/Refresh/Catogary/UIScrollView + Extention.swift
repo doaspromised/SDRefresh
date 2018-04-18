@@ -12,16 +12,23 @@ private var key: Void?
 
 extension UIScrollView {
     
-    var sd_header: UIView? { // cat「实际上」是一个存储属性
+    var sd_header: UIView? {
         
         get {
             return objc_getAssociatedObject(self, &key) as? UIView
         }
         set {
-            objc_setAssociatedObject(self,
-                                     &key,
-                                     sd_header,
-                                     .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            if sd_header != newValue {
+                sd_header?.removeFromSuperview()
+                objc_setAssociatedObject(self,
+                                         &key,
+                                         newValue,
+                                         .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                
+                self.addSubview(newValue!)
+            }
+
+
         }
         
     }

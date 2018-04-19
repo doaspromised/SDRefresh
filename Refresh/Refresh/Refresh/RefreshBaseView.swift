@@ -18,6 +18,7 @@ enum RefreshState: Int {
 
 class RefreshBaseView: UIView {
     
+    /// 传递进来的block
     var refreshingBlock: refreshBlcok?
     /// 当前的刷新状态， 默认idle
     var state: RefreshState = .idle
@@ -30,6 +31,9 @@ class RefreshBaseView: UIView {
     
     public func placeSubviews() {
         
+    }
+    
+    public func endRefreshing() {
         
     }
     

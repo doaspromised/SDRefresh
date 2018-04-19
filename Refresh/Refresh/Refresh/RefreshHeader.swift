@@ -13,7 +13,19 @@ class RefreshHeader: RefreshBaseView {
     override var state: RefreshState {
         
         didSet {
-            print(state)
+            if state == .refreshing {
+                refreshingBlock?()
+                /// 悬停
+                UIView.animate(withDuration: 0.3, animations: {
+                    self.scrollView?.sd_insetTop = headerHeight
+                })
+            } else if state == .idle {
+                /// 悬停
+                UIView.animate(withDuration: 0.3, animations: {
+                    self.scrollView?.sd_insetTop = 0.0
+                })
+
+            }
         }
     }
     
@@ -29,6 +41,10 @@ class RefreshHeader: RefreshBaseView {
         sd_height = headerHeight
         sd_width = (scrollView?.sd_width)!
         sd_y = -sd_height
+    }
+    
+    override func endRefreshing() {
+        state = .idle
     }
     
     override func scrollViewContentOffsetChanged(_ value: [NSKeyValueChangeKey : Any]?) {

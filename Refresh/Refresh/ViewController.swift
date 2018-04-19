@@ -40,5 +40,9 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let header = tableView.sd_header as? RefreshHeader {
+            header.endRefreshing()
+        }
+    }
 }

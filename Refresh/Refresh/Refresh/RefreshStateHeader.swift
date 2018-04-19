@@ -13,11 +13,13 @@ class RefreshStateHeader: RefreshHeader {
     lazy var descriptionLable: UILabel = {
        
         let descriptionLable = UILabel.sd_lable()
+        descriptionLable.text = "下拉进行刷新..."
         return descriptionLable
         
     }()
     lazy var lastUpdateTimeLable: UILabel = {
         let lastUpdateTimeLable = UILabel.sd_lable()
+        lastUpdateTimeLable.text = "2018-4-19 15:42(fake time)"
         return lastUpdateTimeLable
     }()
     

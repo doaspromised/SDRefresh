@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-        tableView.sd_header = RefreshStateHeader.header(with: {
+        tableView.sd_header = RefreshNormalHeader.header(with: {
             print("下拉刷新了吗")
         })
 

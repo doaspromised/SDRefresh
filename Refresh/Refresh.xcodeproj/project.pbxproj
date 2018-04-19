@@ -19,6 +19,7 @@
 		4C280D102088487F00B6D221 /* RefreshStateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */; };
 		4C280D122088805100B6D221 /* RefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D112088805100B6D221 /* RefreshNormalHeader.swift */; };
 		4C280D14208880B900B6D221 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C280D13208880B900B6D221 /* MJRefresh.bundle */; };
+		4C280D1620888C9600B6D221 /* RefreshGIFHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D1520888C9600B6D221 /* RefreshGIFHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshStateHeader.swift; sourceTree = "<group>"; };
 		4C280D112088805100B6D221 /* RefreshNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshNormalHeader.swift; sourceTree = "<group>"; };
 		4C280D13208880B900B6D221 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		4C280D1520888C9600B6D221 /* RefreshGIFHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshGIFHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				4C280D0D2087987D00B6D221 /* RefreshHeader.swift */,
 				4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */,
 				4C280D112088805100B6D221 /* RefreshNormalHeader.swift */,
+				4C280D1520888C9600B6D221 /* RefreshGIFHeader.swift */,
 			);
 			path = Refresh;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				4C280D0820878D8200B6D221 /* UIScrollView + Extention.swift in Sources */,
 				4C280D122088805100B6D221 /* RefreshNormalHeader.swift in Sources */,
 				4C280D0C2087979500B6D221 /* RefreshBaseView.swift in Sources */,
+				4C280D1620888C9600B6D221 /* RefreshGIFHeader.swift in Sources */,
 				4C280CF420878C2700B6D221 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

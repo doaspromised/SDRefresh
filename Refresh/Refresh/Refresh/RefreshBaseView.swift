@@ -74,6 +74,27 @@ class RefreshBaseView: UIView {
         }
     }
     
+}
+
+extension UILabel {
     
+    static func sd_lable() -> UILabel {
+        
+        let lable = UILabel()
+        lable.font = UIFont.systemFont(ofSize: 14.0)
+        lable.backgroundColor = .clear
+        lable.textColor = .blue
+        lable.autoresizingMask = .flexibleWidth
+        lable.textAlignment = .center
+        return lable
+    }
     
+    func textWidth() -> CGFloat {
+        
+        if let textSize = text?.size(withAttributes: [NSAttributedStringKey.font: font]) {
+            return textSize.width
+        }
+        
+        return 0.0
+    }
 }

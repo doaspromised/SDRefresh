@@ -16,6 +16,7 @@
 		4C280D0A2087930600B6D221 /* UIView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D092087930600B6D221 /* UIView + Extention.swift */; };
 		4C280D0C2087979500B6D221 /* RefreshBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D0B2087979500B6D221 /* RefreshBaseView.swift */; };
 		4C280D0E2087987D00B6D221 /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D0D2087987D00B6D221 /* RefreshHeader.swift */; };
+		4C280D102088487F00B6D221 /* RefreshStateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4C280D092087930600B6D221 /* UIView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extention.swift"; sourceTree = "<group>"; };
 		4C280D0B2087979500B6D221 /* RefreshBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshBaseView.swift; sourceTree = "<group>"; };
 		4C280D0D2087987D00B6D221 /* RefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
+		4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshStateHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				4C280D0B2087979500B6D221 /* RefreshBaseView.swift */,
 				4C280D0D2087987D00B6D221 /* RefreshHeader.swift */,
+				4C280D0F2088487F00B6D221 /* RefreshStateHeader.swift */,
 			);
 			path = Refresh;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				4C280D0E2087987D00B6D221 /* RefreshHeader.swift in Sources */,
 				4C280CF620878C2700B6D221 /* ViewController.swift in Sources */,
+				4C280D102088487F00B6D221 /* RefreshStateHeader.swift in Sources */,
 				4C280D0A2087930600B6D221 /* UIView + Extention.swift in Sources */,
 				4C280D0820878D8200B6D221 /* UIScrollView + Extention.swift in Sources */,
 				4C280D0C2087979500B6D221 /* RefreshBaseView.swift in Sources */,

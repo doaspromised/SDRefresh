@@ -27,10 +27,13 @@ class RefreshStateHeader: RefreshHeader {
             
             if state == .refreshing {
                 descriptionLable.text = "正在刷新..."
+                lastUpdateTimeLable.text = "2018-4-19 15:42(fake time)"
             } else if state == .pulling {
                 descriptionLable.text = "松手立刻刷新..."
+                lastUpdateTimeLable.text = "2018-4-19 15:42(fake time)"
             } else {
                 descriptionLable.text = "下拉进行刷新..."
+                lastUpdateTimeLable.text = "2018-4-19 15:42(fake time)"
             }
         }
     }
